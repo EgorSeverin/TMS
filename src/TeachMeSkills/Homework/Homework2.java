@@ -81,7 +81,7 @@ public class Homework2 {
         number = sc.nextInt();
         int result = 0;
         if (number >= 0) {
-            for (int sum = 2; sum < number; sum++) {
+            for (int sum = 1; sum <= number; sum++) {
                 result += sum;
             }
             System.out.println(result);
