@@ -109,15 +109,11 @@ public class Homework2 {
         int number1 = 0;
         int number2 = 1;
         int number3;
-        System.out.print(number1 + " ");
-        if(n > 1) {
-            System.out.print(number2 + " ");
-            for (i = 3; i <= n; i++) {
-                number3 = number1 + number2;
-                System.out.print(number3 + " ");
-                number1 = number2;
-                number2 = number3;
-            }
+        for (i = 1; i <= n; i++) {
+            System.out.print(number1 + " ");
+            number3 = number1 + number2;
+            number1 = number2;
+            number2 = number3;
         }
 
         // Доплнительно. Задание 2
